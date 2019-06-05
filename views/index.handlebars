@@ -1,0 +1,43 @@
+<div class="row">
+    <center>
+        {{!-- Ready to order (located on the left side) --}}
+        <div class="col-md-6">
+            <h4 class="fontStyle">Ready to Order!</h4>
+            <div id="orderReady">
+
+                {{!-- Insert Burgers --}}
+                
+                <form >
+                    <div class="input-group">
+                        <li class="form-control"></li>
+                        <span class="input-group-btn">
+                            <button class="btn devour-button" style="background-color:#2A3852; margin-bottom:10px; color: white" type="submit">
+                                Devour It!</button>
+                        </span>
+                    </div>
+                </form>
+                
+
+            </div>
+        </div>
+
+        {{!-- Burgers that have already been eaten(right side) --}}
+        <div class="col-md-6">
+            <h4 class="fontStyle">Burgers Eaten!</h4>
+            <div id="orderEaten">
+
+                {{!-- Insert eaten burgers --}}
+
+                <div class="input-group">
+                    <li class="form-control"></li>
+                    <span class="input-group-btn">
+                        <button class="btn whine-button" style="background-color:#9E9EA0; margin-bottom:10px; color: white"
+                            type="button">
+                            Devoured!</button>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    </center>
+</div>

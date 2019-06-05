@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    {{!-- Title on tab --}}
+    <title>Burger Style!</title>
+    {{!-- Icon on tab --}}
+    <link rel="icon" href="/assets/img/burger.png">
+    {{!-- Bootstrap --}}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    {{!-- Link to css --}}
+    <link rel="stylesheet" href="/assets/css/burgerStyle.css">
+
+  </head>
+  <body>
+      <div class="container">
+      
+      <br>
+
+      {{!-- Burger Image --}}
+      <center>
+        <div class="row">
+          <img src="/assets/img/burger.png">
+        </div>
+      </center>
+
+      {{!-- Title --}}
+      <center>
+        <h1 class="fontStyle">Burger Style!</h1>
+      </center>
+      
+      <br>
+      {{!-- Body style taken from index.handlbars --}}
+
+      
+      <br><br>
+
+      {{!-- New burgers form --}}
+      <form action="burger/create" method="POST"> 
+        
+        
+        <div class="row">
+        
+          <div class="col-md-3"></div> 
+
+          {{!-- Burger Input --}}
+          <div class="form-group col-md-6">
+            <center><label for="new_burger" class="fontStyle">Request a new burger and place your order!</label></center>
+            <textarea class="form-control" columns="8" rows="4" id="new_burger" name="burger_name"></textarea>
+          </div>
+
+          <div class="col-md-3"></div> 
+        </div>
+      
+        {{!-- Submit Button --}}
+        <center>
+          <button id="submit-button" type="submit" class="btn" style="background-color:#38C790; color:white">Place Order</button>
+        </center>
+
+      </form>
+
+      <br>
+
+    </div>
+
+
+
+  </body>
+
+</html>
