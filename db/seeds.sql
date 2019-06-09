@@ -1,4 +1,4 @@
-USE burgers_DB;
+USE burgerStyle_db;
 
 INSERT INTO burgers (id, burger_name, devoured, date)
 VALUES
