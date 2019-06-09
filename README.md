@@ -1,4 +1,4 @@
-# :hamburger: BurgerStyle!
+# BurgerStyle!
 
 
 ### Overview of BurgerStyle
@@ -21,6 +21,6 @@ Using an home-grown ORM, the app uses 3 basic CRUD functions
     * re-routes the webpage back to the index, where the burger is added to the column on the left side which is the order up side.
 
 
-### Screenshots
+### Screenshot
 
   * ![Full Size](/public/assets/img/burgerStyle.png)
