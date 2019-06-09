@@ -12,6 +12,7 @@ connection.connect(function (err) {
 
 var orm = {
 
+    // select from burgers table
     selectAll: function (callback) {
         connection.query('SELECT * FROM burgers', function (err, result) {
             if (err) throw err;
@@ -19,6 +20,7 @@ var orm = {
         });
     },
 
+    // insert burger name and timestamp
     insertOne: function (burger_name, callback) {
         var d = new Date();
         var timestamp = '' + d.getFullYear() + '-'; 
@@ -69,7 +71,7 @@ var orm = {
 
     },
 
-    // updateOne()
+    // updateOne() updates burger ID
     updateOne: function (burgerID, callback) {
 
         connection.query('UPDATE burgers SET ? WHERE ?', [{ devoured: true }, { id: burgerID }], function (err, result) {
