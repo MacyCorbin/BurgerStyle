@@ -4,7 +4,7 @@
 ### Overview of BurgerStyle
 This burger app uses Node Express, Handlebars, and MySQL to let users select the names of burgers they'd like to eat and then devour them! The users can even add their custom made burgers.
 
-Please check out the launched app on Heroku [here](http://eat-da-burgerz.herokuapp.com/)!
+Please check out the launched app on Heroku [here]!
 
 
 ### Functionality
